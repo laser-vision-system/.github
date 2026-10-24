@@ -49,3 +49,7 @@ The edge computing device is anticipated to be a Raspberry Pi (RPi), however any
 	A repository that automatically creates an image for a Raspberry Pi, to aid in the deployment process.
 
 We also use a custom fork of a cross-operating-system camera library called `nokhwa`.
+
+## Manuals
+
+User manuals are available at https://laser-vision-system.github.io/
