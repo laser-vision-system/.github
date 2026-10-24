@@ -22,33 +22,50 @@ The edge computing device is anticipated to be a Raspberry Pi (RPi), however any
 
 ### The main operation repositories
 
-- **Edge**
+- **[Edge](https://github.com/laser-vision-system/edge)**
+
 	The edge computing tier manages the camera connections and provides the vision processing/image analysis.
-	It connects and reports to, the **Server**.
-- **Server**
-	The central control tier provides the connection point for the **Edge** devices and forwards the information to users via their browser.
-- **GUI**
+	It connects and reports to, the ***Server***.
+
+- **[Server](https://github.com/laser-vision-system/https://github.com/laser-vision-system/)**
+
+	The central control tier provides the connection point for the ***Edge*** devices and forwards the information to users via their browser.
+
+- **[GUI](https://github.com/laser-vision-system/gui)**
+
 	A browser-based graphical user interface. It displays system information, measurement readings, and provides configuration controls.
 
 ### Secondary operation repositories
 
-- **Dataset Assistant**
+- **[Dataset Assistant](https://github.com/laser-vision-system/dataset-assistant)**
+
 	A helper program for collecting image data into a dataset for using in machine vision training.
-- **Vision CNN**
+
+- **[Vision CNN](https://github.com/laser-vision-system/vision-cnn)**
+
 	A machine vision technique that uses a convolutional neural network.
-- **Vision Diff**
+
+- **[Vision Diff](https://github.com/laser-vision-system/vision-diff)**
+
 	A machine vision technique that uses image metric comparison.
 
 ### Supporting repositories
 
-- **API**
-	Provides the data structures used in communication over the local network between the **Edge** and **Server**, or **GUI** and **Server**.
-- **Dataset Loader**
+- **[API](https://github.com/laser-vision-system/api)**
+
+	Provides the data structures used in communication over the local network between the ***Edge*** and ***Server***, or ***GUI*** and ***Server***.
+
+- **[Dataset Loader](https://github.com/laser-vision-system/dataset-loader)**
+
 	A reusable library for reading our dataset from disk and presenting them to our machine vision training crates.
-- **Custom RPi Manager**
+
+- **[Custom RPi Manager](https://github.com/laser-vision-system/custom-rpi-manager)**
+
 	A repository that automatically creates an image for a Raspberry Pi, to aid in the deployment process.
 
-We also use a custom fork of a cross-operating-system camera library called `nokhwa`.
+- **[Nokhwa](https://github.com/laser-vision-system/nokhwa)**
+
+  This is a custom fork of an open-source cross-operating-system camera library called `nokhwa`.
 
 ## Manuals
 
